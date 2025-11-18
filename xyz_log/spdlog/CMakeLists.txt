@@ -33,7 +33,7 @@ set(CMAKE_CXX_STANDARD 11)          # 注默认不再使用c++20中的std::forma
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 option(SPDLOG_BUILD_TEST "Build all artifacts" OFF) # 构建测试
-option(SPDLOG_BUILD_SHARED "Build shared library" ON) # 构建共享库选项（默认构建静态库）
+option(SPDLOG_BUILD_SHARED "Build shared library" OFF) # 构建共享库选项（默认构建静态库）
 option(SPDLOG_BUILD_PIC "Build position independent code (-fPIC)" OFF) # 构建位置无关代码选项（用于生成共享库，-fPIC 标志）
 option(SPDLOG_ENABLE_PCH "Build static or shared library using precompiled header to speed up compilation time" OFF) # 预编译头选项（可以加速编译时间）
 
